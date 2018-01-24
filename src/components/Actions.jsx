@@ -5,10 +5,10 @@ class Actions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                    <div>Test Text</div>
-                    <div>Test Text</div>
-                    <div>Test Text</div>
-                    <div>Test Text</div>
+                    <div className="mt-4 ml-3">Fight</div>
+                    <div className="ml-3">Magic</div>
+                    <div className="ml-3">Code</div>
+                    <div className="ml-3">Items</div>
             </React.Fragment>
         )
     }
