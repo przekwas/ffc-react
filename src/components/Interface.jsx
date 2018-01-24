@@ -1,6 +1,6 @@
 import React from 'react';
 import './container.css';
-import Actions from './Actions';
+import ActionsContainer from './ActionsContainer';
 import Info from './Info';
 
 class Interface extends React.Component {
@@ -12,7 +12,7 @@ class Interface extends React.Component {
                     <div className="row col-sm-12">
                         <div className="col-sm-1"></div>
                         <div className="col-sm-2 mr-5 ml-1 ffui" id="actions-div">
-                            <Actions />
+                            <ActionsContainer />
                         </div>
                         <div className="col-sm-7 mr-1 ml-5 ffui" id="info-div">
                             <Info />

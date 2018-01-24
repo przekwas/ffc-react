@@ -23,12 +23,16 @@
 
 #interface-underlay {
     background-color: black;
-    height: 13em;
+    height: auto;
 }
 
 #actions-div {
     font-size: 1.5em;
     text-align: left;
+}
+
+.action-animate {
+    color: gray !important;
 }
 
 #info-div {
